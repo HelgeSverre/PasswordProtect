@@ -1,25 +1,14 @@
-# Referrer Blocker
-## A Plugin for GetSimple CMS that blocks common referral spam sites.
+# Password Protect
+## A Plugin for GetSimple CMS that let's you password protect pages
 
+### About Password Protect
 
-![Screenshot](/assets/screenshot.png)
-
-
-### About Referrer Blocker
-
-Referrer Blocker is a plugin that inspects the referrer of a website visitor, and checks it against a 
-list of referrers that are known to be spammy and/or malicious, it will return a 404 not found error if 
-the client's referrer matches any in the list. 
-
-The list of referrers is initally empty, but you can fetch a good list by clicking the "Fetch List" button 
-in the top right of the plugins setting page, this list is fetched from  ```https://raw.githubusercontent.com/piwik/referrer-spam-blacklist/master/spammers.txt```
-
-All credit for the list goes towards their contributors.
+Work in progress
 
 
 ## Install the plugin
 
-[Download here](http://get-simple.info/extend/plugin/referrer-blocker/1002/)
+[Download here](http://example.com)
 
 ```
 1. Download the plugin zip file.
@@ -31,15 +20,7 @@ All credit for the list goes towards their contributors.
 
 ### Features
 
-- Add custom referrers 
-- Whitelist IP addresses (bypasses referrer check)
-- English and Norwegian language
-
-
-### Note
-
-If you want to disable the Donation button in the plugin, go to your settings page and click "Hide donation button", 
-or open donation.txt inside ```referrer_blocker/``` and enter "0" in the file and save it.
+- Add password to a page
 
 
 ### Reporting bugs
