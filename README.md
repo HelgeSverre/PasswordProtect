@@ -35,5 +35,5 @@ A very simple plugin to use and is ideal for webmasters that need a quick and si
 
 ### Reporting bugs
 
-Please report bugs in the support thread [here](http://get-simple.info/forums/showthread.php?tid=7863) or 
+Please report bugs in the support thread [here](http://get-simple.info/forums/showthread.php?tid=8144) or 
 create a [GitHub Issue](https://github.com/HelgeSverre/referrer-blocker/issues).
