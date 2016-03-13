@@ -1,19 +1,9 @@
 # Password Protect
-A Plugin for GetSimple CMS that let's you password protect pages
+## A Plugin for GetSimple CMS that let's you password protect pages
 
 ### About Password Protect
 
-Password Protect let's GetSimple CMS users assign a password to their pages, a user can enter a password to gain access to the page.
-
-A very simple plugin to use and is ideal for webmasters that need a quick and simple way to password restrict a page.
-
-
-## Screenshots
-
-![Page edit area](assets/screenshot1.png "Page edit area")
-
-![Password protected page](assets/screenshot2.png "Password protected page")
-
+Work in progress
 
 
 ## Install the plugin
