@@ -53,7 +53,7 @@ function password_protect()
 
     $temp_title = i18n("password_protect/PASSWORD_TITLE", false);
 
-    $html = [];
+    $html = array();
     $html[] = '<form method="post">';
     $html[] = '<label for="password">' . i18n("password_protect/ENTER_PASSWORD", false) . '</label>';
     $html[] = '<input type="password" name="password" id="password" placeholder="' . i18n("password_protect/PASSWORD_PLACEHOLDER", false) . '">';
