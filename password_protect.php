@@ -86,13 +86,14 @@ function password_protect()
 function password_protect_page_edit()
 {
     global $data_edit;
-    
-    // TODO(13. mar 2016) ~ Helge: i18n function does not seem to work here, hardcoded strings for now.
+
+    // Initialize language files
+    password_protect_init();
     ?>
 
     <div class="leftopt">
         <p>
-            <label for="post-password">Password Protect:</label>
+            <label for="post-password"><?= i18n('password_protect/PASSWORD_PROTECT'); ?></label>
             <input class="text short"
                    type="text"
                    id="post-password"
@@ -127,20 +128,3 @@ function password_protect_page_save()
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
